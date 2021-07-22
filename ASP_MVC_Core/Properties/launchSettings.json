@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/ASP_MVC_Core",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:36629",
       "sslPort": 44354
@@ -16,7 +20,7 @@
       "commandName": "Project",
       "launchBrowser": true,
       "dotnetRunMessages": "true",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+      "applicationUrl": "https://azurekeyapp4379.azurewebsites.net/"
     }
   }
 }
