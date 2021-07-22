@@ -14,17 +14,13 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "Key": "Value",
-        "ASPNETCORE_ENVIRONMENT": "Production"
-      }
+      "launchBrowser": true
     },
     "ASP_MVC_Core": {
       "commandName": "Project",
       "launchBrowser": true,
       "dotnetRunMessages": "true",
-      "applicationUrl": "https://azurekeyapp4379.azurewebsites.net/"
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
     }
   }
 }
