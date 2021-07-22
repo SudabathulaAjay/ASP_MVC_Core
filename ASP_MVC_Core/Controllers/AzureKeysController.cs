@@ -20,11 +20,12 @@ namespace ASP_MVC_Core.Controllers
         }
 
         // GET: AzureKeys
-        //public async Task<IActionResult> Index()
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+             
+            return View(await _context.AzureKey.ToListAsync());
         }
+
         // GET: AzureKeys/Details/5
         public async Task<IActionResult> Details(int? id)
         {
