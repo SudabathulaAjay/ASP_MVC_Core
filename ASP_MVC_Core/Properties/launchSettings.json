@@ -14,7 +14,11 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true
+      "launchBrowser": true,
+      "environmentVariables": {
+        "Key": "Value",
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
     },
     "ASP_MVC_Core": {
       "commandName": "Project",
